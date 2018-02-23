@@ -1,0 +1,108 @@
+
+*{
+    box-sizing: border-box;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+h2
+{
+    text-align: center;
+}
+.progressbar
+{
+    border:4px solid grey;
+    width:200px;
+}
+.progressbar1
+{
+    border:4px solid grey;
+    width:100px;
+}
+.font
+{
+	font-size: 1em;
+}
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul li
+{
+	margin: 5px;
+	padding:5px;
+}
+.col-3 {
+    float:left;
+    padding-bottom:230px;
+    border: 1px solid grey;
+    padding-left: 10px;
+    background-color:#03011f; 
+    box-shadow: -webkit-box-shadow: 10px 6px 38px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 6px 38px 7px rgba(0,0,0,0.75);
+    box-shadow: 10px 6px 38px 7px rgba(0,0,0,0.75);
+    margin-right: 5px;
+    color:white;
+
+}
+.col-9 {
+	
+    height: 100%;
+    float:right;
+    padding-bottom:64px;
+    padding-top: 29px;
+    border: 1px solid grey;
+    box-shadow: -webkit-box-shadow: 10px 6px 38px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 6px 38px 7px rgba(0,0,0,0.75);
+    box-shadow: 10px 6px 38px 7px rgba(0,0,0,0.75);
+    background-color:#efe9e8;
+    background-position: left top;
+}
+.shad
+{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background-color:#7b7b7b;
+    box-shadow: -webkit-box-shadow: 10px 6px 38px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 6px 38px 7px rgba(0,0,0,0.75);
+    box-shadow: 10px 6px 38px 7px rgba(0,0,0,0.75);
+}
+h2
+{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background-color:#1a0dab;
+    box-shadow: -webkit-box-shadow:-webkit-box-shadow: 15px 0px 35px 19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 0px 35px 19px rgba(0,0,0,0.75);
+    box-shadow: 15px 0px 35px 19px rgba(0,0,0,0.75);
+    color:white;
+}
+/* For mobile phones: */
+[class*="col-"] {
+	box-shadow: -webkit-box-shadow: 10px 6px 38px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 6px 38px 7px rgba(0,0,0,0.75);
+    box-shadow: 10px 6px 38px 7px rgba(0,0,0,0.75);
+    width: 100%;
+}
+@media only screen and (min-width: 1000px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 74%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+table, th, td {
+    border: 1px solid black;
+}
